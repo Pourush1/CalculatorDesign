@@ -20,3 +20,14 @@ E:\Masters Software Engineering\Object Oriented Programming\Calculator_Better_De
 E:\Masters Software Engineering\Object Oriented Programming\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\obj\Debug\Command_Line_UI.csproj.CoreCompileInputs.cache
 E:\Masters Software Engineering\Object Oriented Programming\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\obj\Debug\Command_Line_UI.exe
 E:\Masters Software Engineering\Object Oriented Programming\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\obj\Debug\Command_Line_UI.pdb
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\bin\Debug\Command_Line_UI.exe.config
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\bin\Debug\Command_Line_UI.exe
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\bin\Debug\Command_Line_UI.pdb
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\bin\Debug\Logic.dll
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\bin\Debug\Logic_Interfaces.dll
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\bin\Debug\Logic.pdb
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\bin\Debug\Logic_Interfaces.pdb
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\obj\Debug\Command_Line_UI.csprojResolveAssemblyReference.cache
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\obj\Debug\Command_Line_UI.csproj.CoreCompileInputs.cache
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\obj\Debug\Command_Line_UI.exe
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Command_Line_UI\obj\Debug\Command_Line_UI.pdb

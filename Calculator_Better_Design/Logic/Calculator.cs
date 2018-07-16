@@ -16,7 +16,7 @@ namespace Logic
         double firstEnteredValue = 0.0;
         double lastEnteredValue = 0.0;
         string result_Of_Operation = "";
-        bool operation_changed = false;
+        bool isOperationPerformed = false;
         string current_operation = "";
 
         public string Equals()
@@ -53,7 +53,7 @@ namespace Logic
         {
 
 
-            if (pending_operation == null)
+            if (pending_operation == null || isOperationPerformed)
             {
                 firstEnteredValue = value;
             }
@@ -71,70 +71,80 @@ namespace Logic
         public string Addition_entered()
         {
             current_operation = "+";
-            if (pending_operation == null) {
+            if (pending_operation == null || isOperationPerformed ) {
                 pending_operation = new Addition();
                 result_Of_Operation = firstEnteredValue.ToString();
+                current_operation = "";
+                isOperationPerformed = false;
             }
             else
             {
                 result_Of_Operation = Equals();
+                isOperationPerformed = true;
             }
             return result_Of_Operation;
-
-            ////Equals();
-            //if(pending_operation != null)
-            //{
-            //    Equals();
-            //    pending_operation = null; 
-            //}
-           
-            //pending_operation = new Addition();
-            //return firstEnteredValue.ToString();
 
         }
 
          public string Subtraction_entered()
         {
-            //pending_operation = new Subtraction();
-            //return firstEnteredValue.ToString();
-            if (current_operation != "-")
-            {
-                current_operation = "-";
-                result_Of_Operation = firstEnteredValue.ToString();
-            }
-            else
-            {
+            current_operation = "-";
                 
-                if (pending_operation == null)
+                if (pending_operation == null || isOperationPerformed)
                 {
                     pending_operation = new Subtraction();
                     result_Of_Operation = firstEnteredValue.ToString();
+                    isOperationPerformed = false;
                 }
 
                 else
                 {
                     result_Of_Operation = Equals();
+                    isOperationPerformed = true;
                 }
-            }
+         
             return result_Of_Operation;
         }
 
         public string Multiplication_entered()
         {
-           // if(pending_operation == null)
-            pending_operation = new Multiplication();
+            current_operation = "*";
 
-          //  Equals();
-            return firstEnteredValue.ToString();
-        }
+            if (pending_operation == null || isOperationPerformed)
+            {
+                pending_operation = new Multiplication();
+                result_Of_Operation = firstEnteredValue.ToString();
+                isOperationPerformed = false;
+            }
+
+            else
+            {
+                result_Of_Operation = Equals();
+                isOperationPerformed = true;
+            }
+
+            return result_Of_Operation;
+        
+    }
 
         public string Division_entered()
         {
-          //  if(pending_operation == null)
-            pending_operation = new Division();
+            current_operation = "*";
 
-       //     Equals();
-            return firstEnteredValue.ToString();
+            if (pending_operation == null || isOperationPerformed)
+            {
+                pending_operation = new Division();
+                result_Of_Operation = firstEnteredValue.ToString();
+                isOperationPerformed = false;
+            }
+
+            else
+            {
+                result_Of_Operation = Equals();
+                isOperationPerformed = true;
+            }
+
+            return result_Of_Operation;
 
         }
 

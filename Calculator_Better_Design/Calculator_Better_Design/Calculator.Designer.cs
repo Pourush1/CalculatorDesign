@@ -305,7 +305,7 @@ namespace Calculator_Better_Design
             this.Controls.Add(this.button1);
             this.Name = "Calculator";
             this.Text = "Calculator";
-            this.Load += new System.EventHandler(this.Calculator_Load);
+       //     this.Load += new System.EventHandler(this.Calculator_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

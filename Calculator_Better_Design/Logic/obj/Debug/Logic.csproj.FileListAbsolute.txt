@@ -14,3 +14,11 @@ E:\Masters Software Engineering\Object Oriented Programming\Calculator_Better_De
 E:\Masters Software Engineering\Object Oriented Programming\Calculator_Better_Design\Calculator_Better_Design\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
 E:\Masters Software Engineering\Object Oriented Programming\Calculator_Better_Design\Calculator_Better_Design\Logic\obj\Debug\Logic.dll
 E:\Masters Software Engineering\Object Oriented Programming\Calculator_Better_Design\Calculator_Better_Design\Logic\obj\Debug\Logic.pdb
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Logic\bin\Debug\Logic.dll
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Logic\bin\Debug\Logic.pdb
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Logic\bin\Debug\Logic_Interfaces.dll
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Logic\bin\Debug\Logic_Interfaces.pdb
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Logic\obj\Debug\Logic.dll
+C:\github-repos\Calculator_Better_Design\Calculator_Better_Design\Logic\obj\Debug\Logic.pdb

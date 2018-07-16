@@ -15,7 +15,8 @@ namespace Calculator_Better_Design
     {
         Logic.Calculator calculator;
         private bool isNewNumberEntered = true;
-        public string temp_History = "";
+        private string temp_History = "";
+        private string resultValue = "";
 
         public Calculator()
         {
@@ -28,9 +29,10 @@ namespace Calculator_Better_Design
         {
             Button buttonPushed = (Button)sender;
             string buttonValue = buttonPushed.Tag.ToString();
-            if (display.Text == "0" || isNewNumberEntered == true)
+            if (display.Text == "0" || isNewNumberEntered )
             {
                 display.Text = buttonValue;
+                resultValue += display.Text;
                 isNewNumberEntered = false;
             }
             else
@@ -38,17 +40,12 @@ namespace Calculator_Better_Design
                 display.Text += buttonValue;
             }
 
-
-
-        }
-        private void Calculator_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void Add_Click(object sender, EventArgs e)
         {
-            calculator.Number_entered(Convert.ToDouble(display.Text));
+            string numberEntered = calculator.Number_entered(Convert.ToDouble(display.Text));
+            resultValue += numberEntered;
             display.Text = calculator.Addition_entered();
             isNewNumberEntered = true;
             temp_History += display.Text + "+";
